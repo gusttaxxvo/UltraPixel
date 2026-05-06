@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Página Inicial / Ultra Pixel</title>
+    <link rel="icon" href="./img/retro_favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/estilos.css"/>
+
+</head>
+<body>
+    
+    <header>
+        <img id="logo" width="668" height="98" src="./img/ultrapixel_logo.png"/>
+        <nav>
+            <ul>
+                <li><a href="index.html">PÁGINA INICIAL</a></li>
+                <li><a href="retro.html">JOGOS RETRO</a></li>
+                <li><a href="TERROR/TERROR.html">JOGOS DE TERROR</a></li>
+                <li><a href="fliperama.html">FLIPERAMA</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="principal">
+            <div class="destaque">
+                <h2>REDESCUBRA A MAGIA DOS JOGOS CLÁSSICOS</h2>
+                    <div class="separ">
+                    <p>Embarque em uma jornada nostálgica pelo universo dos jogos retro e explore a riqueza dos títulos criados perto de você. Encontre informações e curiosidades para reviver essa paixão!</p>
+                    <!--<a href="#onde-encontrar" class="botao-principal">Onde Encontrar?</a>
+                    <section id="musicas">-->
+            </div>
+
+  <h3>🎮 Selecione Uma Música Para Tocar</h3>
+  
+  <div class="player">
+    <select id="musicSelect">
+      <option disabled selected>Selecione uma música</option>
+      <option value="metal-slug.mp3">Metal Slug</option>
+      <option value="streetsofrage.mp3">Streets of Rage</option>
+      <option value="SONIC.mp3">Sonic</option>
+      <option value="Street.mp3">Street Fighter</option>
+      <option value="TETRIS.mp3">Tetris</option>
+      <option value="Super Mario Bros. Theme Song.mp3">Super Mario Bros</option>
+    </select>
+    <audio id="audioPlayer" controls></audio>
+  
+  </div>
+  
+  <script>
+    const audioPlayer = document.getElementById("audioPlayer");
+    const musicSelect = document.getElementById("musicSelect");
+  
+    musicSelect.addEventListener("change", function () {
+      const selectedValue = this.value;
+      if (selectedValue) {
+        audioPlayer.src = selectedValue;
+        audioPlayer.load();
+        audioPlayer.play().catch(error => {
+          console.warn("Reprodução automática bloqueada:", error);
+        });
+      }
+    });
+  </script>
+            </div>
+        </section>
+        <section id="carrossel">
+            <h2>Jogos Emblemáticos</h2>
+            <div class="slider">
+                <img src="./img/pac-man.jpeg" alt="Jogo 1">
+                <img src="./img/mario.jpeg" alt="Jogo 2">
+                <img src="./img/street Fighter 2.jpeg" alt="Jogo 3">
+                <img src="./img/hq720.jpg" alt="Jogo 4">
+                <img src="./img/donkey kong.jpg" alt="Jogo 5">
+                <img src="./img/guitar hero.pgn.png" alt="Jogo 6">
+                <img src="./img/metaaal.ico" alt="Jogo 7">
+                <img src="./img/pac-man.jpeg" alt="Jogo 1">
+                <img src="./img/mario.jpeg" alt="Jogo 2">
+                <img src="./img/street Fighter 2.jpeg" alt="Jogo 3">
+                <img src="./img/hq720.jpg" alt="Jogo 4">
+                <img src="./img/donkey kong.jpg" alt="Jogo 5">
+                <img src="./img/guitar hero.pgn.png" alt="Jogo 6">
+                <img src="./img/metaaal.ico" alt="Jogo 7">
+                <img src="./img/pac-man.jpeg" alt="Jogo 1">
+                <img src="./img/mario.jpeg" alt="Jogo 2">
+                <img src="./img/street Fighter 2.jpeg" alt="Jogo 3">
+                <img src="./img/hq720.jpg" alt="Jogo 4">
+                <img src="./img/donkey kong.jpg" alt="Jogo 5">
+                <img src="./img/guitar hero.pgn.png" alt="Jogo 6">
+                <img src="./img/metaaal.ico" alt="Jogo 7">
+            </div>
+        </section>
+
+        <section id="curiosidades">
+            
+            <ul>
+                <h2>Curiosidades</h2>
+                <li>O primeiro console foi criado em 1972</li>
+                <li>Pac-man é o game de fliperama mais jogado de todos os tempos</li>
+                <li>Mario era um carpinteiro em suas primeiras aparições</li>
+                <li>Tetris vendeu mais de 500 milhões de cópias</li>
+                <li>Tetris foi criado por um cientista soviético</li>
+                <li>O criador do Pac-Man se inspirou em... pizza!</li>
+                <li>Os fantasmas de Pac-Man tem inteligência artificial</li>
+                <li>Donkey Kong quase foi um jogo do Popeye</li>
+            </ul>
+            <img src="./img/fanta.png" width="200" height="200" class="sticker"/>
+
+        </section>
+
+        <section id="recordes">
+            <img src="./img/spacein.png" width="200" height="146" class="sticker"/>
+            <div class="recordescont">
+            <h2 id="titrecordes">Recordes</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Jogo</th>
+                            <th>Recorde</th>
+                            <th>Jogador</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pac-man</td>
+                            <td>3.333.360</td>
+                            <td>Billy Mitchell</td>
+                        </tr>
+                        <tr>
+                            <td>Donkey Kong</td>
+                            <td>1.270.000</td>
+                            <td>Steve Wiebe</td>
+                        </tr>
+                        <tr>
+                            <td>Space Invaders</td>
+                            <td>184.870</td>
+                            <td>Mark Hays</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="tvretro">
+            <div class="tvretrocont">
+                <h2>Tela Retrô</h2>
+                <div class="tv-frame">
+                    <iframe src="https://www.youtube.com/embed/Ik0SPMN-mL8?si=y3qiwrFUiKGWR_0M" width="480" height="270" frameborder="0" allowfullscreen></iframe>
+                    <p>Curta o melhor dos games junto com essa jornada pelo passado.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+  
+
+    <footer id="madruguinha">
+        <!--<h3 id="typo" class="titulo">
+        </h3>-->
+
+        <div class="pezao" id="pe-zao">
+            <div id="fot-sobrenos" class="dog">
+                <h3 class="titulo titdevs">Desenvolvido por:</h3>
+                <ul>
+                    <li>Gustavo Alves Lima</li>
+                    <li>Gustavo Silva Dos Santos</li>
+                    <li>Jose Pedro</li>
+                    <li>Leonardo</li>
+                    <li>Luigi</li>
+                </ul>
+            </div>
+            <div id="fot-homenagens" class="dog">
+                <h3 class="titulo">Homenagens / Pessoas Realacionadas</h3>
+                <ul>
+                    <li>Prof: Israel de Carvalho🐷💚⚽️</li>
+                    <li>Prof: Antonio "Lobinho" Cavalcante  ⚫⚪🐺</li>
+                    <li>Etec de Sapopemba</li>
+                </ul>
+            </div>
+            <div id="fot-objetivos" class="dog">
+                <h3 class="titulo">Objetivos</h3>
+                <ul>
+                    <li>Esse site foi criado no intuito de fazer você voltar um pouquinho no passado e se divertir, só que nos anos atuais.</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./Javascript/site2.js"></script>
+</body>
+</html>

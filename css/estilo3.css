@@ -1,0 +1,14 @@
+
+  #mensagem-bemvindo {
+    display: none;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    color: #00ffcc;
+    background-color: #000;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: 'Courier New', monospace;
+    text-shadow: 2px 2px 5px #00ffcc;
+  }
+

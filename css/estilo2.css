@@ -1,0 +1,57 @@
+#jogos-locais {
+    padding: 20px;
+    background-color: #222;
+    color: #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#jogos-locais h2 {
+    color: #00ffcc; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.secao-local {
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.secao-local h3 {
+    color: #ff66ff; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.secao-local p {
+    line-height: 1.6;
+}
+
+.secao-local ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.secao-local li {
+    margin-bottom: 5px;
+}
+
+#jogos-locais a {
+    color: #ffdd00; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#jogos-locais a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}

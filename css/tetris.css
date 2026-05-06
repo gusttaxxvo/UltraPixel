@@ -1,0 +1,42 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .tetris-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  canvas {
+    background: #111;
+    border: 2px solid #0f0;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .info h1 {
+    margin: 0 0 20px;
+    color: #0f0;
+  }
+  
+  #start {
+    padding: 10px;
+    margin: 10px 0;
+    background: #0f0;
+    border: none;
+    color: #000;
+    cursor: pointer;
+  }
+  

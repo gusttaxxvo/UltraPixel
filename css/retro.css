@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #333;
+}
+
+.jogo-retro {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.jogo-retro h3 {
+    color: #007BFF;
+}
+
+.jogo-retro h4 {
+    color: #0056b3;
+}
+
+.jogo-retro .detalhes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jogo-retro img {
+    width: 200px; 
+    height: auto; 
+    max-height: 150px; 
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.sinopse, .legado {
+    margin: 10px 0;
+    color: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+iframe {
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
